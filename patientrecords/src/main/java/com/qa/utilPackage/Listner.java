@@ -12,19 +12,20 @@ public class Listner extends TestBase implements ITestListener
 	@Override
 	public void onTestStart(ITestResult result)
 	{
-
+      logger.info("Test case excution is started");
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) 
 	{
-
+		logger.info("Test case excution is ssuccessful");
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) 
 	{
-
+		logger.info("Test method is failed ");
+     GetScreenshot.takeScreenshot(result.getName()+System.currentTimeMillis());
 	}
 
 	@Override

@@ -4,13 +4,15 @@
   <parameter name="browser" value="chrome"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.qa.TestLayer.LoginTest">
+      <class name="com.qa.TestLayer.PatientRegestrationTest">
         <methods>
-          <include name="verifyLogin"/>
+          <include name="verifyPatientRegestration"/>
+          <include name="start"/>
           <include name="closeTab"/>
           <include name="setProperty"/>
+          <include name="stop"/>
         </methods>
-      </class> <!-- com.qa.TestLayer.LoginTest -->
+      </class> <!-- com.qa.TestLayer.PatientRegestrationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

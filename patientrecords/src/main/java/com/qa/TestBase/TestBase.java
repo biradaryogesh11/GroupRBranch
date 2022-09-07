@@ -63,16 +63,16 @@ public class TestBase
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		
-//		Thread.sleep(2000);
-//		LoginPage l= new LoginPage();
-//		l.enterUserName("Admin");
-//		l.enterPassword("Admin123");
-//		l.clickOnLocation();
-//		l.clickOnLoginButton();
+		Thread.sleep(2000);
+		LoginPage l= new LoginPage();
+		l.enterUserName("Admin");
+		l.enterPassword("Admin123");
+		l.clickOnLocation();
+		l.clickOnLoginButton();
 	}
 	@AfterMethod
 	public void closeTab()
 	{
-		driver.close();
+	//	driver.close();
 	}
 }

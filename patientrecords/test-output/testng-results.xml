@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-08T00:34:37 IST" name="Suite" finished-at="2022-09-08T00:34:53 IST" duration-ms="15421">
+  <suite started-at="2022-09-08T04:12:27 IST" name="Suite" finished-at="2022-09-08T04:13:08 IST" duration-ms="41205">
     <groups>
     </groups>
-    <test started-at="2022-09-08T00:34:37 IST" name="Test" finished-at="2022-09-08T00:34:53 IST" duration-ms="15421">
-      <class name="com.qa.TestLayer.LoginTest">
-        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.TestLayer.LoginTest@52e6fdee]" started-at="2022-09-08T00:34:37 IST" name="setProperty" finished-at="2022-09-08T00:34:48 IST" duration-ms="10626" status="PASS">
+    <test started-at="2022-09-08T04:12:27 IST" name="Test" finished-at="2022-09-08T04:13:08 IST" duration-ms="41205">
+      <class name="com.qa.TestLayer.PatientRegestrationTest">
+        <test-method is-config="true" signature="setProperty(java.lang.String)[pri:0, instance:com.qa.TestLayer.PatientRegestrationTest@7c729a55]" started-at="2022-09-08T04:12:27 IST" name="setProperty" finished-at="2022-09-08T04:12:43 IST" duration-ms="15638" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method signature="verifyLogin()[pri:0, instance:com.qa.TestLayer.LoginTest@52e6fdee]" started-at="2022-09-08T00:34:48 IST" name="verifyLogin" finished-at="2022-09-08T00:34:53 IST" duration-ms="4701" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.qa.TestLayer.PatientRegestrationTest@7c729a55]" started-at="2022-09-08T04:12:43 IST" name="start" finished-at="2022-09-08T04:12:43 IST" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="closeTab()[pri:0, instance:com.qa.TestLayer.LoginTest@52e6fdee]" started-at="2022-09-08T00:34:53 IST" name="closeTab" finished-at="2022-09-08T00:34:53 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- start -->
+        <test-method signature="verifyPatientRegestration()[pri:0, instance:com.qa.TestLayer.PatientRegestrationTest@7c729a55]" started-at="2022-09-08T04:12:43 IST" name="verifyPatientRegestration" finished-at="2022-09-08T04:13:08 IST" duration-ms="25323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPatientRegestration -->
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:com.qa.TestLayer.PatientRegestrationTest@7c729a55]" started-at="2022-09-08T04:13:08 IST" name="closeTab" finished-at="2022-09-08T04:13:08 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTab -->
-      </class> <!-- com.qa.TestLayer.LoginTest -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:com.qa.TestLayer.PatientRegestrationTest@7c729a55]" started-at="2022-09-08T04:13:08 IST" name="stop" finished-at="2022-09-08T04:13:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- com.qa.TestLayer.PatientRegestrationTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
