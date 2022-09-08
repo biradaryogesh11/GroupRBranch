@@ -100,6 +100,13 @@ public class PetientRegestrationPage extends TestBase
 		submit_button.click();
 	}
 	
+	@FindBy(xpath="//span[@class='PersonName-givenName']")
+	private WebElement expected_result ;
+	public String getExpectedResult()
+	{
+		String expected = expected_result.getText();
+		return expected;
+	}
 	
 	
 	

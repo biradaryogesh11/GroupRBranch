@@ -20,4 +20,18 @@ public class HomePage extends TestBase
 	{
 		register_a_patient.click();
 	}
+	
+	@FindBy(xpath="//a[@id='coreapps-activeVisitsHomepageLink-coreapps-activeVisitsHomepageLink-extension']")
+	private WebElement find_patient_records;
+	public void clickOnFindPatientRecords()
+	{
+		find_patient_records.click();
+	}
+	
+	@FindBy(xpath="//i[@class='icon-signout small']")
+	private WebElement logout;
+	public void clickOnLogout()
+	{
+		logout.click();
+	}
 }

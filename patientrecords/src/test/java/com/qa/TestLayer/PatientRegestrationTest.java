@@ -1,5 +1,7 @@
 package com.qa.TestLayer;
 
+import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.qa.TestBase.TestBase;
@@ -15,7 +17,7 @@ public class PatientRegestrationTest extends TestBase
 		HomePage home= new HomePage();
 		home.clickonRegisterAPatient();
 		logger.info("Enter into Registation page");
-		Thread.sleep(6000);
+		Thread.sleep(2000);
 		PetientRegestrationPage reg=new PetientRegestrationPage();
 		reg.enterPatientName("Sharad");
 		reg.enterPatientMiddleName("Sanjay");
@@ -34,13 +36,20 @@ public class PatientRegestrationTest extends TestBase
 		reg.clickOnNextButton();
 		Thread.sleep(2000);
 		reg.enterAddress("Pnue,Maharashtra");
+		logger.info("Address is entered");
 		reg.clickOnNextButton();
 		Thread.sleep(2000);
 		reg.enterPhoneNumber("9421366666");
 		reg.clickOnNextButton();
+		logger.info("phone number is entered");
 		Thread.sleep(1000);
 		reg.clickOnNextButton();
 		Thread.sleep(1000);
 		reg.clickOnSubmitButton();
+		logger.info("click on submit button");
+		String expected = reg.getExpectedResult();
+		String actual = driver.findElement(By.xpath("//span[@class='PersonName-givenName']")).getText();
+		Assert.assertEquals(actual, expected);
+		
 	}
 }
