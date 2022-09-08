@@ -15,19 +15,19 @@ public class FindPatientRecordPage extends TestBase
 	
 	@FindBy(xpath="//input[@id='patient-search']")
 	private WebElement search_patient_result;
-	public void clickOnFindPatientRecords(String id)
+	public void clickOnFindPatientRecords(String name)
 	{
-		search_patient_result.sendKeys(id);
+		search_patient_result.sendKeys(name);
 	}
 	
-	@FindBy(xpath="//tr[@class='odd']")
+	@FindBy(xpath="(//tr[@class='odd'])[1]")
 	private WebElement select_patient_record;
 	public void clickOnPatientRecors()
 	{
 		select_patient_record.click();
 	}
 	
-	@FindBy(xpath="//span[contains(text(),'100JWH')]")
+	@FindBy(xpath="//div[@class='float-sm-right']")
 	private WebElement id;
 	public String expectedResult()
 	{

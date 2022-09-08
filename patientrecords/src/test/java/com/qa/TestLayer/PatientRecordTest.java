@@ -15,14 +15,14 @@ public class PatientRecordTest extends TestBase
 		
 	    home.clickOnFindPatientRecords();
 	    logger.info("patient record page is open");
-	    record.clickOnFindPatientRecords("100JWH");
+	    record.clickOnFindPatientRecords("sharad");
 	    logger.info("id is entered");
 	    Thread.sleep(2000);
 	    record.clickOnPatientRecors();
 	    Thread.sleep(2000);
 	    logger.info("Patient record is selected");
 	    String expected = record.expectedResult();
-	    String actual = driver.findElement(By.xpath("//span[contains(text(),'100JWH')]")).getText();
+	    String actual = driver.findElement(By.xpath("//div[@class='float-sm-right']")).getText();
 	    Assert.assertEquals(actual, expected);
 	    
 	}

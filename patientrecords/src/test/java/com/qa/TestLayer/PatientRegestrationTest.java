@@ -10,7 +10,7 @@ import com.qa.pageLayer.PetientRegestrationPage;
 
 public class PatientRegestrationTest extends TestBase
 {
-    @Test
+	@Test
 	public void verifyPatientRegestration() throws InterruptedException
 	{
 		Thread.sleep(2000);
@@ -50,6 +50,6 @@ public class PatientRegestrationTest extends TestBase
 		String expected = reg.getExpectedResult();
 		String actual = driver.findElement(By.xpath("//span[@class='PersonName-givenName']")).getText();
 		Assert.assertEquals(actual, expected);
-		
+
 	}
 }

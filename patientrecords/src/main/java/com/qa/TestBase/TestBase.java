@@ -15,6 +15,7 @@ import org.testng.annotations.Parameters;
 import com.qa.pageLayer.FindPatientRecordPage;
 import com.qa.pageLayer.HomePage;
 import com.qa.pageLayer.LoginPage;
+import com.qa.pageLayer.PatientPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -24,7 +25,7 @@ public class TestBase
 	public static Logger logger;
 	public static FindPatientRecordPage record;
 	public static HomePage home;
-	
+	public static PatientPage patient;
 	
 	@BeforeMethod
 	public void start()
@@ -78,7 +79,7 @@ public class TestBase
 		
 		 home= new HomePage();
 		 record= new FindPatientRecordPage();
-		
+		 patient=new PatientPage();
 		
 	}
 	@AfterMethod
@@ -86,4 +87,5 @@ public class TestBase
 	{
 	//	driver.close();
 	}
+	
 }

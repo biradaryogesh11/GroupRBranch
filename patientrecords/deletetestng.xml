@@ -8,10 +8,7 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-   <!--   <class name="com.qa.TestLayer.LogoutTest"/> -->
-  <!--    <class name="com.qa.TestLayer.LoginTest"/>  -->
-      <class name="com.qa.TestLayer.PatientRecordTest"/>
-  <!--    <class name="com.qa.TestLayer.PatientRegestrationTest"/>-->
+      <class name="com.qa.TestLayer.DeletePatientRecordTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

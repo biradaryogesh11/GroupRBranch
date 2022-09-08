@@ -8,15 +8,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.qa.TestLayer.LogoutTest">
+      <class name="com.qa.TestLayer.DeletePatientRecordTest">
         <methods>
           <include name="start"/>
-          <include name="verifylogout"/>
+          <include name="verifyDeletePatientRecord"/>
           <include name="closeTab"/>
           <include name="setProperty"/>
           <include name="stop"/>
         </methods>
-      </class> <!-- com.qa.TestLayer.LogoutTest -->
+      </class> <!-- com.qa.TestLayer.DeletePatientRecordTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
