@@ -1,0 +1,34 @@
+2022-09-09 03:11:53,683 - patientrecords -INFO - FrameWork Excution started
+2022-09-09 03:11:53,759 - patientrecords -INFO - Test case excution is started
+2022-09-09 03:11:55,231 - patientrecords -INFO - Test case excution is ssuccessful
+2022-09-09 03:11:55,861 - patientrecords -INFO - FrameWork Excution End
+2022-09-09 03:12:06,447 - patientrecords -INFO - FrameWork Excution started
+2022-09-09 03:12:06,450 - patientrecords -INFO - Test case excution is started
+2022-09-09 03:12:08,923 - patientrecords -INFO -  enter patient record page
+2022-09-09 03:12:09,002 - patientrecords -INFO -  enter name search box
+2022-09-09 03:12:16,326 - patientrecords -INFO - enter on patient record page
+2022-09-09 03:12:36,391 - patientrecords -INFO - Test method is failed 
+2022-09-09 03:12:37,195 - patientrecords -INFO - FrameWork Excution End
+2022-09-09 03:12:47,876 - patientrecords -INFO - FrameWork Excution started
+2022-09-09 03:12:47,878 - patientrecords -INFO - Test case excution is started
+2022-09-09 03:12:56,965 - patientrecords -INFO - patient record page is open
+2022-09-09 03:12:57,083 - patientrecords -INFO - id is entered
+2022-09-09 03:13:07,124 - patientrecords -INFO - Patient record is selected
+2022-09-09 03:13:07,221 - patientrecords -INFO - Assert name
+2022-09-09 03:13:07,296 - patientrecords -INFO - Assert height
+2022-09-09 03:13:07,369 - patientrecords -INFO - Assert weight
+2022-09-09 03:13:07,570 - patientrecords -INFO - Assert temprature
+2022-09-09 03:13:07,628 - patientrecords -INFO - Assert pulse
+2022-09-09 03:13:07,629 - patientrecords -INFO - Test case excution is ssuccessful
+2022-09-09 03:13:08,737 - patientrecords -INFO - FrameWork Excution End
+2022-09-09 03:13:20,176 - patientrecords -INFO - FrameWork Excution started
+2022-09-09 03:13:20,178 - patientrecords -INFO - Test case excution is started
+2022-09-09 03:13:27,071 - patientrecords -INFO - Enter into Registation page
+2022-09-09 03:13:29,783 - patientrecords -INFO - Name is ented
+2022-09-09 03:13:32,056 - patientrecords -INFO - Gender is selected
+2022-09-09 03:13:34,762 - patientrecords -INFO - Birthdate is entered
+2022-09-09 03:13:37,159 - patientrecords -INFO - Address is entered
+2022-09-09 03:13:39,514 - patientrecords -INFO - phone number is entered
+2022-09-09 03:13:41,708 - patientrecords -INFO - click on submit button
+2022-09-09 03:13:47,494 - patientrecords -INFO - Test case excution is ssuccessful
+2022-09-09 03:13:48,194 - patientrecords -INFO - FrameWork Excution End

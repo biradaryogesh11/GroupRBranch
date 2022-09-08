@@ -1,9 +1,10 @@
 package com.qa.TestBase;
 
 import java.time.Duration;
-import java.util.logging.Logger;
 
+import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -21,6 +22,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase 
 {
+	
 	public static WebDriver driver;
 	public static Logger logger;
 	public static FindPatientRecordPage record;
@@ -30,7 +32,7 @@ public class TestBase
 	@BeforeMethod
 	public void start()
 	{
-		logger=Logger.getLogger("patientrecords");
+		 logger=Logger.getLogger("patientrecords");
 		PropertyConfigurator.configure("log4j.properties");
 		logger.info("FrameWork Excution started");
 	}
@@ -85,7 +87,7 @@ public class TestBase
 	@AfterMethod
 	public void closeTab()
 	{
-	//	driver.close();
+		driver.quit();
 	}
 	
 }

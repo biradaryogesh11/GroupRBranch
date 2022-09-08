@@ -9,19 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">66,222</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">131,424</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.TestLayer.DeletePatientRecordTest</td><td><a href="#m0">verifyDeletePatientRecord</a></td><td rowspan="1">1662635233366</td><td rowspan="1">39126</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.TestLayer.DeletePatientRecordTest</td><td><a href="#m0">verifyDeletePatientRecord</a></td><td rowspan="1">1662673326449</td><td rowspan="1">29934</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qa.TestLayer.LogoutTest</td><td><a href="#m1">verifylogout</a></td><td rowspan="1">1662673313744</td><td rowspan="1">1482</td></tr><tr class="passedodd"><td rowspan="1">com.qa.TestLayer.PatientRecordTest</td><td><a href="#m2">verifyPatientRecordPage</a></td><td rowspan="1">1662673367877</td><td rowspan="1">19751</td></tr><tr class="passedeven"><td rowspan="1">com.qa.TestLayer.PatientRegestrationTest</td><td><a href="#m3">verifyPatientRegestration</a></td><td rowspan="1">1662673400177</td><td rowspan="1">27314</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.qa.TestLayer.DeletePatientRecordTest#verifyDeletePatientRecord</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[contains(text(),&apos;This patient has been deleted&apos;)]&quot;}
-  (Session info: chrome=104.0.5112.102)
+<h2>Test</h2><h3 id="m0">com.qa.TestLayer.DeletePatientRecordTest#verifyDeletePatientRecord</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[contains(@class,&apos;col-11 col-lg-10&apos;)])[17]&quot;}
+  (Session info: chrome=105.0.5195.102)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
 System info: host: &apos;DESKTOP-NK01B5C&apos;, ip: &apos;192.168.29.68&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8169b9c2c084199c82dfbc7a9aeadeb7, findElement {using=xpath, value=//h1[contains(text(),&apos;This patient has been deleted&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MANGES~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53608}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53608/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8169b9c2c084199c82dfbc7a9aeadeb7
+Command: [d15db24065f0a86688d4557936f0f962, findElement {using=xpath, value=(//div[contains(@class,&apos;col-11 col-lg-10&apos;)])[17]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\MANGES~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57737}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57737/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d15db24065f0a86688d4557936f0f962
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -35,10 +35,17 @@ Session ID: 8169b9c2c084199c82dfbc7a9aeadeb7
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
-	at com.qa.pageLayer.DeletePatientPage.getExpectedResult(DeletePatientPage.java:20)
-	at com.qa.TestLayer.DeletePatientRecordTest.verifyDeletePatientRecord(DeletePatientRecordTest.java:29)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at com.qa.pageLayer.PatientPage.clickOnDeletePatientRecord(PatientPage.java:20)
+	at com.qa.TestLayer.DeletePatientRecordTest.verifyDeletePatientRecord(DeletePatientRecordTest.java:22)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.TestLayer.LogoutTest#verifylogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.TestLayer.PatientRecordTest#verifyPatientRecordPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.TestLayer.PatientRegestrationTest#verifyPatientRegestration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

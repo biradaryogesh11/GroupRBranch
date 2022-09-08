@@ -33,5 +33,38 @@ public class PatientPage extends TestBase
 	{
 		confirm_button.click();
 	}
+	
+	@FindBy(xpath="//h3[contains(text(),'Height (cm)')]")
+	private WebElement height;
+	public String getHeight()
+	{
+		String exp = height.getText();
+		return exp;
+	}
+	
+	@FindBy(xpath="//h3[contains(text(),'Weight (kg)')]")
+	private WebElement weight;
+	public String getWeight()
+	{
+		String exp = weight.getText();
+		return exp;
+	}
+	
+	@FindBy(xpath="//h3[contains(text(),'Température (c)')]")
+	private WebElement temperature;
+	public String getTemperature()
+	{
+		String exp = temperature.getText();
+		return exp;
+	}
+	
+	@FindBy(xpath="//h3[contains(text(),'Pulse')]")
+	private WebElement pulse;
+	public String getPulse()
+	{
+		String exp = pulse.getText();
+		return exp;
+	}
+	
 
 }
